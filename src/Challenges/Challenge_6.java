@@ -11,5 +11,18 @@ package Challenges;
  */
 
 public class Challenge_6 {
-    
+
+    public static void main(String[] args) {
+        reverseText("Hola Mundo");
+    }
+
+    static void reverseText(String text) {
+
+        char [] charArray = text.toCharArray();
+        char [] reverse;
+
+        for (int i = 0; i < charArray.length -1; i++) {
+            System.out.println(charArray[i]);
+        }
+    }
 }

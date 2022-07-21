@@ -1,6 +1,10 @@
 package Challenges;
 
-import javax.swing.tree.RowMapper;
+import javax.swing.plaf.synth.SynthSplitPaneUI;
+import javax.swing.plaf.synth.SynthStyleFactory;
+import javax.swing.text.AbstractDocument;
+import java.util.Arrays;
+import java.util.Locale;
 
 /*
  * Reto #1
@@ -16,14 +20,27 @@ import javax.swing.tree.RowMapper;
 public class Challenge_1 {
 
     public static void main(String[] args) {
-        challenge1("roma", "amor");
+        System.out.println(challenge1("Roma", "Amor"));
+        System.out.println(challenge1("Roma", "Roma"));
+        System.out.println(challenge1("Roma", "Mora"));
+        System.out.println(challenge1("Roma", "Rema"));
     }
 
-    static boolean challenge1(String word1, String word2){
-        if (word1.toLowerCase() == word2.toLowerCase()) {
-            return false;            
-        }else{
+    public static boolean challenge1(String word1, String word2){
+
+        if(word1 == word2){
             return false;
         }
-    }    
+
+        String s1 = word1.toLowerCase();
+        String s2 = word2.toLowerCase();
+
+        char [] text1 = s1.toCharArray();
+        char [] text2 = s2.toCharArray();
+
+        Arrays.sort(text1);
+        Arrays.sort(text2);
+
+        return Arrays.equals(text1, text2);
+    }
 }
