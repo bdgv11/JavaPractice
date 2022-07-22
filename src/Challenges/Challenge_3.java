@@ -25,7 +25,7 @@ public class Challenge_3 {
     }
 
     private static boolean prime(int num){
-        if(num < 2){
+        if(num <= 1){
             return false;
         }
 

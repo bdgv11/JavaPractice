@@ -1,5 +1,10 @@
 package Challenges;
 
+import Challenges.challenge4.Polygon;
+import Challenges.challenge4.Rectangle;
+import Challenges.challenge4.Square;
+import Challenges.challenge4.Triangle;
+
 /*
  * Reto #4
  * ÁREA DE UN POLÍGONO
@@ -14,4 +19,12 @@ package Challenges;
 
 public class Challenge_4 {
 
+    public static void main(String[] args) {
+        Polygon tri = new Triangle(10.0, 5.0);
+        tri.printArea();
+        Polygon square = new Square(4.0);
+        square.printArea();
+        Polygon rectangle = new Rectangle(5.0, 7.0);
+        rectangle.printArea();
+    }
 }

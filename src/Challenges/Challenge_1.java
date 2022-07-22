@@ -1,10 +1,6 @@
 package Challenges;
 
-import javax.swing.plaf.synth.SynthSplitPaneUI;
-import javax.swing.plaf.synth.SynthStyleFactory;
-import javax.swing.text.AbstractDocument;
 import java.util.Arrays;
-import java.util.Locale;
 
 /*
  * Reto #1
