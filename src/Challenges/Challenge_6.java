@@ -13,7 +13,7 @@ package Challenges;
 public class Challenge_6 {
 
     public static void main(String[] args) {
-        reverseText("text");
+        reverseText("Hola mundo");
     }
 
     public static void reverseText(String text) {
@@ -21,7 +21,8 @@ public class Challenge_6 {
         String textResult="";
 
         for (int i = text.length() - 1; i >= 0; i--) {
-            //textResult = text[i];
+            textResult += text.charAt(i);
         }
+        System.out.println(textResult);
     }
 }

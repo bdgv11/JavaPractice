@@ -9,5 +9,28 @@ package Challenges;
  */
 
 public class Challenge_8 {
-    
+
+    public static void main(String[] args) {
+        convertToBinary(155);
+    }
+
+    public static void convertToBinary(int number) {
+
+        String binary = "";
+        String newBinary = "";
+
+        while (number != 0) {
+            if (number % 2 == 0) { // PAR
+                binary = binary + "0";
+                number = number / 2;
+            } else { // I M P A R
+                binary = binary + "1";
+                number = number / 2;
+            }
+        }
+        for (int i = binary.length() - 1; i >= 0; i--) {
+            newBinary += binary.charAt(i);
+        }
+        System.out.println(newBinary);
+    }
 }
