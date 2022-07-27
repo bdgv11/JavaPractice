@@ -11,8 +11,6 @@ package Challenges;
  *
  */
 
- // TODO Complete this!
-
 public class Challenge_11 {
 
     public static void main(String[] args) {
@@ -20,6 +18,8 @@ public class Challenge_11 {
         challenge_11("Me gusta Objective-C", "Me gusta Swift");
     }
 
+    // Comparing the characters of two strings and printing the characters that are
+    // not in the second string.
     public static void challenge_11(String str1, String str2) {
 
         char[] charStr1 = str1.toLowerCase().toCharArray();
@@ -27,14 +27,47 @@ public class Challenge_11 {
         char[] charStr2 = str2.toLowerCase().toCharArray();
         String out2 = "";
 
+        // Comparing the characters of the first string with the characters of the
+        // second string.
         for (int i = 0; i < charStr1.length; i++) {
+
             for (int j = 0; j < charStr2.length; j++) {
-                if (charStr1[i] != charStr2[j]) {
+
+                Boolean flag = false;
+
+                if (charStr1[i] == charStr2[j]) {
+                    flag = true;
+                    break;
+                }
+
+                if (charStr1[i] != charStr2[j] && j == charStr2.length - 1 && flag == false) {
                     out1 = out1 + charStr1[i];
                 }
             }
         }
-        System.out.println(charStr1);
+
+        // Comparing the characters of the second string with the characters of the
+        // first string.
+        for (int x = 0; x < charStr2.length; x++) {
+
+            for (int k = 0; k < charStr1.length; k++) {
+
+                Boolean flag = false;
+
+                if (charStr2[x] == charStr1[k]) {
+                    flag = true;
+                    break;
+                }
+
+                if (charStr2[x] != charStr1[k] && k == charStr1.length - 1 && flag == false) {
+                    out2 = out2 + charStr2[x];
+                }
+
+            }
+
+        }
+
+        System.out.println(out1);
         System.out.println(out2);
     }
 }

@@ -12,7 +12,7 @@ package Challenges;
  *
  */
 
- // TODO Complete this!
+// TODO Complete this!
 public class Challenge_12 {
 
     public static void main(String[] args) {
@@ -27,9 +27,9 @@ public class Challenge_12 {
             textResult += text.charAt(i);
         }
 
-        if(text == textResult){
+        if (text == textResult) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
