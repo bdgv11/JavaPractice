@@ -1,7 +1,5 @@
 package Challenges;
 
-import java.util.ArrayList;
-
 /*
  * Reto #7
  * CONTANDO PALABRAS

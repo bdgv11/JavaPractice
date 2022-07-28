@@ -10,8 +10,6 @@ package Challenges;
  * - Por ratio hacemos referencia por ejemplo a los "16:9" de una imagen de 1920*1080px.
  */
 
- // TODO Complete this!
-
 public class Challenge_5 {
-    
+
 }
