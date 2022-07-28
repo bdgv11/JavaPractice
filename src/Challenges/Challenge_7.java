@@ -1,5 +1,7 @@
 package Challenges;
 
+import java.util.ArrayList;
+
 /*
  * Reto #7
  * CONTANDO PALABRAS
@@ -11,31 +13,38 @@ package Challenges;
  * - No se pueden utilizar funciones propias del lenguaje que lo resuelvan automáticamente.
  */
 
- // TODO Fix this!
-
 public class Challenge_7 {
 
     public static void main(String[] args) {
 
-        String[] text = { "bryan", "daVId", "daniel", "BRYAN", "Josue", "DANiel", "Bryan", "josue", "daniel" };
+        String[] text = { "bryan", "daVId", "daniel", "BRYAN", "Josue", "DANiel", "Bryan", "josue", "daniel",
+                "Montserrat" };
         challenge_7(text);
     }
 
     public static void challenge_7(String[] text) {
         int nameCount = 0;
-        int arrayLength = text.length;
 
         for (int i = 0; i < text.length; i++) {
 
+            boolean flag = false;
+
             for (int j = 0; j < text.length; j++) {
 
-                if (text[i].equalsIgnoreCase(text[j])) {
+                if (text[i].equalsIgnoreCase(text[j]) && j < i) {
+                    flag = true;
+                    break;
+                }
+
+                if (text[i].equalsIgnoreCase(text[j]) && flag == false) {
                     nameCount += 1;
                 }
             }
-            System.out.println("Count for " + text[i] + " is : " + nameCount);
-            nameCount = 0;
+            if (nameCount > 0) {
+                System.out.println("Count for " + text[i].toUpperCase() + " is : " + nameCount);
+                nameCount = 0;
+            }
         }
-        System.out.println("Count name: " + arrayLength);
+
     }
 }
