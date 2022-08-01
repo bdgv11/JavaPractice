@@ -13,6 +13,8 @@ package Challenges;
  * Nota: La matriz puede no estar totalmente cubierta. Se podría representar con un vacío "", por ejemplo. 
  */
 
+ // TODO complete this!
+
 public class Challenge_18 {
     
 }
