@@ -14,6 +14,11 @@ public class Challenge_8 {
         convertToBinary(155);
     }
 
+   /**
+    * It converts a decimal number to binary.
+    * 
+    * @param number The number that will be converted to binary.
+    */
     public static void convertToBinary(int number) {
 
         String binary = "";

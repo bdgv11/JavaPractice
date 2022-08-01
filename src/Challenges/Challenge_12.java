@@ -19,6 +19,13 @@ public class Challenge_12 {
         System.out.println(challenge_12("Ana lleva al oso la avellana"));
     }
 
+    /**
+     * It takes a string, converts it to lowercase, then reverses it and compares it to the original
+     * string
+     * 
+     * @param text the text to be checked
+     * @return A boolean value.
+     */
     public static boolean challenge_12(String text) {
         text = text.toLowerCase();
         String textResult = "";

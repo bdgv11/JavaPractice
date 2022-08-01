@@ -20,6 +20,14 @@ public class Challenge_7 {
         challenge_7(text);
     }
 
+    /**
+     * It loops through the array, and for each element, it loops through the array again to check if
+     * the element is equal to any other element in the array. If it is, it checks if the element is
+     * equal to any other element in the array before it. If it is, it skips the element. If it isn't,
+     * it prints the element and the number of times it appears in the array
+     * 
+     * @param text an array of strings to look through
+     */
     public static void challenge_7(String[] text) {
         int nameCount = 0;
 

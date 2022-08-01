@@ -22,6 +22,15 @@ public class Challenge_1 {
         System.out.println(challenge1("Roma", "Rema"));
     }
 
+/**
+ * We first check if the two strings are the same, if they are, we return false. If they are not, we
+ * convert both strings to lowercase, convert them to char arrays, sort them, and then compare them. If
+ * they are equal, we return true, otherwise we return false
+ * 
+ * @param word1 the first word to compare
+ * @param word2 "cinema"
+ * @return The method is returning a boolean value.
+ */
     public static boolean challenge1(String word1, String word2){
 
         if(word1 == word2){

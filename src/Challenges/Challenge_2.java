@@ -16,6 +16,9 @@ public class Challenge_2 {
         challenge2();
     }
 
+    /**
+     * It prints the first 50 numbers in the Fibonacci sequence
+     */
     static void challenge2() {
         long n1 = 0;
         long n2 = 1;

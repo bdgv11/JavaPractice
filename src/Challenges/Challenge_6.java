@@ -16,6 +16,11 @@ public class Challenge_6 {
         reverseText("Hola mundo");
     }
 
+    /**
+     * It reverses the text.
+     * 
+     * @param text the text to reverse
+     */
     public static void reverseText(String text) {
         
         String textResult="";
