@@ -12,8 +12,8 @@ package Challenges;
  * - Ejemplo. Entrada: [("R","S"), ("S","R"), ("P","S")]. Resultado: "Player 2".
  */
 
- // TODO complete this!
+// TODO complete this!
 
 public class Challenge_25 {
-    
+
 }
