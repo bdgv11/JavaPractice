@@ -19,5 +19,9 @@ package Challenges;
 // TODO complete this!
 
 public class Challenge_33 {
+
+    public static void main(String[] args) {
+        
+    }
     
 }
