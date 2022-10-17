@@ -9,7 +9,7 @@ package Challenges;
  *
  */
 
-public class Cgallenge_19 {
+public class Challenge_19 {
 
     public static void main(String[] args) {
         System.out.println(challenge_19(2, 5, 45, 14) + "\n");

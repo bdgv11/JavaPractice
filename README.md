@@ -34,6 +34,17 @@ They are in spanish because I got the challenges from [here](`https://github.com
  - #28 MÁQUINA EXPENDEDORA
  - #29 ORDENA LA LISTA
  - #30 MARCO DE PALABRAS
+ - #31 AÑOS BISIESTOS
+ - #32 EL SEGUNDO
+ - #33 CICLO SEXAGENARIO CHINO
+ - #34 LOS NÚMEROS PERDIDOS
+ - #35 BATALLA POKÉMON
+ - #36 LOS ANILLOS DE PODER
+ - #37 LOS LANZAMIENTOS DE "THE LEGEND OF ZELDA"
+ - #38 BINARIO A DECIMAL
+ - #39 TOP ALGORITMOS: QUICK SORT
+ - #40 TRIÁNGULO DE PASCAL
+ - #41 LA LEY DE OHM
 ```
 
 <img src="./images/java-logo.png" width="100%" height="25%">
