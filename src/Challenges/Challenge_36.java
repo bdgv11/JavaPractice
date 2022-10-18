@@ -1,4 +1,5 @@
 package Challenges;
+import java.util.HashMap;
 
 /*
  * Reto #36
@@ -19,7 +20,64 @@ package Challenges;
  *
  */
 
- // TODO complete this!
 public class Challenge_36 {
     
+    public static void main(String[] args) {
+
+        String[] buenos = {"SurenosBuenos","15"};
+        String[] malos = {"Trolls","6"};
+        challenge36(buenos, malos);
+    }
+
+    public static void challenge36(String[] buenos, String[] malos) {
+
+        String nombreBueno = buenos[0];
+        int cantidadBuenos = Integer.parseInt(buenos[1]);
+        String nombreMalo = malos[0];
+        int cantidadMalos = Integer.parseInt(malos[1]);
+
+        int cantBuenos = (getCantEjercito(nombreBueno, "bueno")) * cantidadBuenos;
+        int cantMalos = (getCantEjercito(nombreMalo, "malo")) * cantidadMalos;
+
+        if (cantBuenos > cantMalos) {
+
+            System.out.println("El bien gana la guerra con " + cantBuenos + " guerreros..!!");
+            
+        }else if(cantBuenos == cantMalos) {
+
+            System.out.println("Hubo un empate en esta guerra! AUUU!!");
+            
+        }else{
+            System.out.println("El mal gana la guerra con " + cantMalos + " guerreros..!! BUUUUHHHH!!!");
+        }
+    }
+
+    public static int getCantEjercito(String nombre, String tipo) {
+
+        int cantidad=0;
+
+        HashMap<String, Integer> bondadosas = new HashMap<>();
+
+        bondadosas.put("Pelosos", 1);
+        bondadosas.put("SurenosBuenos", 2);
+        bondadosas.put("Enanos", 3);
+        bondadosas.put("Numeroneanos",4);
+        bondadosas.put("Elfos",5);
+
+        HashMap<String, Integer> malvadas = new HashMap<>();
+        
+        malvadas.put("SurenosMalos", 2);
+        malvadas.put("Orcos", 2);
+        malvadas.put("Goblins", 2);
+        malvadas.put("Huargos", 3);
+        malvadas.put("Trolls", 5);
+
+        if(tipo == "bueno"){
+            cantidad = bondadosas.get(nombre);
+        }else{
+            cantidad = malvadas.get(nombre);
+        }
+
+        return cantidad;
+    }
 }

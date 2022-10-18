@@ -13,13 +13,11 @@ import java.util.ArrayList;
  *
  */
 
-// TODO complete this!
-
 public class Challenge_34 {
 
     public static void main(String[] args) {
 
-        Integer list[] = { 1, 2, 4, 7, 9 };
+        Integer list[] = { 120, 202, 400 };
         challenge34(list);
 
     }

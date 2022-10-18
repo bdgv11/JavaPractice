@@ -14,5 +14,13 @@ package Challenges;
  // TODO complete this!
 
 public class Challenge_29 {
-    
+
+    public static void main(String[] args) {
+        
+    }
+
+    public static void challenge29() {        
+        
+    }
+
 }
