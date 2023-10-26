@@ -1,0 +1,79 @@
+    /**
+     * Ejercicios para practicar antes de la prueba técnica en automatización de
+     * pruebas (QA Automation) con Java.
+     *
+     * #1. Inversión de cadena:
+     * Descripción: Invertir una cadena dada.
+     * Ejemplo de resultado: Entrada: "hola" Salida: "aloh"
+     *
+     * #2. Conteo de caracteres:
+     * Descripción: Contar la cantidad de veces que aparece cada carácter en una
+     * cadena.
+     * Ejemplo de resultado: Entrada: "hello" Salida: {'h': 1, 'e': 1, 'l': 2, 'o':
+     * 1}
+     *
+     * #3. Factorial de un número:
+     * Descripción: Calcular el factorial de un número.
+     * Ejemplo de resultado: Entrada: 5 Salida: 120 (5!)
+     *
+     * #4. Fibonacci:
+     * Descripción: Generar la secuencia de Fibonacci hasta un número específico.
+     * Ejemplo de resultado: N=10 Salida: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
+     * 
+     * ... (continuación de los ejercicios para practicar antes de la prueba técnica
+     * en automatización de pruebas con Java)
+     *
+     * #5. Determinar números primos:
+     * Descripción: Determinar si un número dado es primo o no.
+     * Ejemplo de resultado: Entrada: 7 Salida: Es primo
+     *
+     * #6. Ordenamiento de un array:
+     * Descripción: Ordenar un array de números.
+     * Ejemplo de resultado: Entrada: [4, 2, 8, 1, 5] Salida: [1, 2, 4, 5, 8]
+     *
+     * #7. Búsqueda binaria:
+     * Descripción: Buscar un elemento en un array ordenado utilizando búsqueda
+     * binaria.
+     * Ejemplo de resultado: Array: [1, 3, 5, 7, 9] Elemento: 5 Salida: Elemento
+     * encontrado en la posición 2
+     *
+     * #8. Palíndromo:
+     * Descripción: Determinar si una cadena es un palíndromo o no.
+     * Ejemplo de resultado: Entrada: "racecar" Salida: Es un palíndromo
+     *
+     * #9. Cálculo de potencia:
+     * Descripción: Calcular la potencia de un número.
+     * Ejemplo de resultado: Base: 2, Exponente: 3 Salida: 8 (2^3)
+     *
+     * #10. Validación de paréntesis:
+     * Descripción: Determinar si una expresión matemática tiene paréntesis
+     * correctamente balanceados.
+     * Ejemplo de resultado: Entrada: "(a + b) * (c - d)" Salida: Paréntesis
+     * balanceados
+     *
+     * #11. Suma de elementos de un array:
+     * Descripción: Calcular la suma de todos los elementos en un array.
+     * Ejemplo de resultado: Entrada: [1, 2, 3, 4, 5] Salida: 15
+     *
+     * #12. Eliminación de duplicados:
+     * Descripción: Eliminar elementos duplicados de un array.
+     * Ejemplo de resultado: Entrada: [1, 2, 2, 3, 4, 4, 5] Salida: [1, 2, 3, 4, 5]
+     *
+     * #13. Cambio de monedas:
+     * Descripción: Calcular la cantidad mínima de monedas para dar un cambio
+     * específico.
+     * Ejemplo de resultado: Cambio: 67 centavos Salida: 2 quarters, 1 dime, 1
+     * nickel, 2 pennies
+     *
+     * #14. Árbol binario:
+     * Descripción: Implementar un árbol binario y realizar operaciones como
+     * inserción, búsqueda y eliminación.
+     * Ejemplo de resultado: Operaciones de inserción, búsqueda y eliminación en un
+     * árbol binario.
+     *
+     * #15. Manejo de excepciones:
+     * Descripción: Escribir un programa que maneje excepciones y proporcione
+     * mensajes de error descriptivos.
+     * Ejemplo de resultado: Manejo de excepciones para errores específicos y
+     * mensajes personalizados.
+     */
